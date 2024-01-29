@@ -5,11 +5,13 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     EnemyController enemyController;
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-        enemyController = collision.GetComponent<EnemyController>();
+        Debug.Log("Detect");
+        enemyController = collider.GetComponent<EnemyController>();
         if (enemyController != null) 
         {
+            Debug.Log("Hit");
             enemyController.Damaged();
         }
     }

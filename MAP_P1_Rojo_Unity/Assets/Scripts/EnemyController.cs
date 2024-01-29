@@ -10,7 +10,7 @@ public class EnemyController : MonoBehaviour
     private void Awake()
     {
         //Esto luego se hará algo para cambiarlo para cada enemigo, ¿con un public o algo así?
-       initialmaxhealth= maxhealth = 3;
+       initialmaxhealth = maxhealth = 3;
     }
 
     // Start is called before the first frame update
@@ -22,12 +22,13 @@ public class EnemyController : MonoBehaviour
     public void Damaged() 
     {
         maxhealth--;
+        Debug.Log(maxhealth);
         if (maxhealth <= 0) { Death(); }  
     }
     private void Death()
     {
         Drop();
-        Destroy(this);
+        Destroy(gameObject);
     }
     private void Drop()
     {

@@ -15,7 +15,7 @@ public class InputManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-         direction = Vector2.zero;
+         direction = Vector3.zero;
 
         if (Input.GetKey(KeyCode.UpArrow)) 
         {
