@@ -19,6 +19,7 @@ public class Playermove : MonoBehaviour
     public void Changedirection(Vector3 directions)
     {
         direction = directions;
+        direction.Normalize();
         
     }
     // Update is called once per frame
