@@ -1,0 +1,3268 @@
+fileFormatVersion: 2
+guid: dc882ecadd375bd43ac165ad6e604851
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5251430ad07cab546a07309ab2b80921
+      internalID: -418449095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 283
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca6fff3ee55c5ad45b83c2759919ebdd
+      internalID: -1369299558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 577d35481223788418a6cd3c128ff576
+      internalID: -953514756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_3
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 283
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 622a5e3f9447b58418dfd5dfbbfe247b
+      internalID: -1994662007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 283
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251de2cd1dadf4440b8fb6ed9c23bc5c
+      internalID: -1678082550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 283
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0aac6abbcd148439d6cfdecd53d68a
+      internalID: -243817100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_6
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 284
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1428364a520e1b84493d5e786d8877ed
+      internalID: -2131608454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_7
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 283
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e446bfc6fdecef94cac1060aeb597f0e
+      internalID: 748096731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_8
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6689a825830cd234b828c99eacda71ce
+      internalID: 1451879643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_9
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 283
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4a6f57ece5d68428859d47b84c7107
+      internalID: 959116958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_10
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 283
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147e3366dfa9a954084c2e8f417e0143
+      internalID: -939552732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_11
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 283
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fa93e8145d5e724a929766bdded5657
+      internalID: -67380091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_12
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 283
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a875a16c593f82489f822a4dc817f40
+      internalID: -1366081015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_13
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 283
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd0a43bf0f3ed4b4d9e0900bf5a69730
+      internalID: -633339614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_14
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 283
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69010db8cf68b584bbcc5d7dc7d408fe
+      internalID: 1529015473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 248
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc88b81a97c8f944bc26de5a1b41a0e
+      internalID: -151339370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_16
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 236
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1858512f7a33a55488c260154d8c4ab0
+      internalID: 1789418230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_17
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 240
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88145181d67e5c041ade13503319106e
+      internalID: 326368083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_18
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 244
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64ab80079c94a44dbb33153df2740e6
+      internalID: -1765364452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_19
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 248
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25966a9d750c0b8428680e5f322a6fcb
+      internalID: -1485613508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_20
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 236
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9475d1535ac9c814aa2466e5e7e36f2c
+      internalID: -745667892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_21
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d605696ffcad4424f8c82b6218822320
+      internalID: -1798525300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_22
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 244
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ff078352b527e4889b6641dd194a3e
+      internalID: 1912919566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_23
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 248
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7871582d66cded143b03578697ed5de1
+      internalID: 1942415707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_24
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 236
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4f9e053af0cf164f86f16e8027da129
+      internalID: -301024254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_25
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 240
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83a3499a12470d84dbb6616486f0ebd8
+      internalID: -1077935152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_26
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 244
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fa916e9a79fcb44b86a32328e37974
+      internalID: 621069598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_27
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 248
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d172ca07bc82eb3408c8de3546be7e8c
+      internalID: -585559834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_28
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 236
+        width: 16
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 473f3ff31cb9d9545bebb771e4a036d5
+      internalID: -902538614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_29
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 240
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7354dc4dadfa1ae43ae7407c3cddebaf
+      internalID: 1322344357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_30
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 246
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b2030eae90210e49bedc136380a304c
+      internalID: -539053619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_31
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c353572d24de6dd4c8ef36af1d95f4c4
+      internalID: 1652036579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_32
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 217
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af316b540a77d1243b38b89886062567
+      internalID: 1039713645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_33
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 217
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cd065085c98a89488497c11d89560e7
+      internalID: 1649820114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_34
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 217
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db0f8df8dec66c04ab4019fced084eab
+      internalID: -771917928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_35
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa5bfcfec7b63354c816c25d7185b086
+      internalID: -567655292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_36
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 217
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 204f987fa4cff994c97faf269d4c6569
+      internalID: -1367223867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_37
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 217
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe44d2ec1c86e14196d65177aecdb36
+      internalID: 43533665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_38
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 217
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e244347d1a6223e4fbccd6ec7d3f15b7
+      internalID: -450279181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_39
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8c1117f7d22cd642b2d1e11778cf34d
+      internalID: -387135708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_40
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 217
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acce19558c071234a809caf46f6f77c6
+      internalID: -2129585378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_41
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 217
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba973d23e8dcaf2418f24cd144d61b33
+      internalID: -1628452232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 217
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab196cdd89b202442abbe344a101fb90
+      internalID: -340776358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_43
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 217
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 891aaf31aea78d74d92ba6812c732bc8
+      internalID: -808493815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_44
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 217
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14a9272e252201f41b00a8065adfdf4a
+      internalID: -19653857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_45
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 217
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2bf65be8f877154a8b1c6cafc509037
+      internalID: 65187191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_46
+      rect:
+        serializedVersion: 2
+        x: 349
+        y: 217
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f901f73267f704c40a874abb8ab215f2
+      internalID: -1634593883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_47
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b782adf56bc37fe45ab50f052cfca0c7
+      internalID: 1486020562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_48
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 185
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d55d529ea9820344a68eaf07e499edd
+      internalID: 1574660585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 185
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c52836ff97575144ba7b54884a168769
+      internalID: -1729477098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_50
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 185
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b963f7e386ac72147a9dfc4c1d094a70
+      internalID: -393032403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_51
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd65b0cea6fa42a43b6ae1d1b450541a
+      internalID: 708856319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_52
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 185
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a5634c9641b74479e42d2e0f7633ca
+      internalID: -1536634149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_53
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 185
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa710e709531b634ca4b5d3f38669a56
+      internalID: 1169610612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_54
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 185
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e5de0b3f33e66a468abb4857ffd8259
+      internalID: 310014302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_55
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 477fcf3cf049cf94bad21f46d563d3fe
+      internalID: 1928642729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_56
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 185
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5e99a5ee87edf64d98a96c1a3bcd798
+      internalID: -923265926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_57
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 185
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6d17ed54bb15944b4aaf1972850a76
+      internalID: -1935397539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_58
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 185
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d493eb4dc608f0540aa8ef8674b39c43
+      internalID: -1564426198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_59
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 185
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3b455992b6ff984eb69785b4cd5a33c
+      internalID: -902420740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_60
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 185
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a688f37708684245ae9ca9fb9f99af1
+      internalID: -1185594767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_61
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 185
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0a300d1a84f2f4439bd0937986468ac
+      internalID: -1912090777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_62
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 185
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fe0510386cbb7143bd4c52869601019
+      internalID: 1427539588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_63
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 086f265ce5ddb844fb79a251828e6619
+      internalID: 97709069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_64
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 163
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86d77a0b50c897e4486d5ea0acfa8dd8
+      internalID: -1469900477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_65
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 166
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3887f663e78a9745868599d07cbe57e
+      internalID: -1358582716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_66
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 166
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbe6c4a318d0b064e9f2c7baf157374d
+      internalID: 232043476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_67
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 159
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a98f626163311c34b9385739d0afcf3b
+      internalID: -810013106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_68
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 163
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7467c2728b35704887fc205db5fdd3c
+      internalID: -788664485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_69
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 166
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a62f485dffdd90479cbb8e4b45175e1
+      internalID: -1453383656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_70
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 166
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3007b7cc4b0a7743b64c039e440c262
+      internalID: 133380831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_71
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 159
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea2aa4e5e96536e4cac0380e0cfe7c6a
+      internalID: -1392629260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_72
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 163
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9c870ed32bf5ad4e91fce867a0fb8a9
+      internalID: -1959257634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_73
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 166
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb48611372bd54249a2b8b0316a16ae0
+      internalID: -1941069316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_74
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 166
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e66bd3d0afbe947af3d7eef6649801
+      internalID: 1466735054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_75
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 159
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a78b6bd9af17e59499e13fe81ee258eb
+      internalID: 1258387612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_76
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 163
+        width: 14
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5b7e4446e74e5e42acf4a1cbc174993
+      internalID: -1535388975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_77
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 166
+        width: 23
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d43018144a1acbf43a69d9239131bd44
+      internalID: -947637285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_78
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 166
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 374b28774f2ff78459b9d9994431a954
+      internalID: -1190011538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_79
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 140
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 697728c096c3bb04180512147e93f21b
+      internalID: -116508187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_80
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 143
+        width: 25
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90892d704dc7f744fa5174eef360b0b7
+      internalID: 145355941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_81
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 140
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7037b614535579046b7adeb270682541
+      internalID: -583236569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_82
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 144
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8edfc3d150cb90a49aeba6415ed07bd5
+      internalID: -95968347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_83
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7eaeff2f5cf8b7d4e9bade8473e9587d
+      internalID: 1763500847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_84
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 140
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e8eacb6873e88c428d127ab1d655795
+      internalID: 1260806794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_85
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 144
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e3cee678db766c45a15a33402f759f5
+      internalID: -858170460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_86
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f96a5313ef920e34e9894f7ab962ad28
+      internalID: -802174288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_87
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 140
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7406047f76baa4b8cc9fc2119a6130
+      internalID: 1921286553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_88
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 144
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98ba113adeeaa7a4b815dcfc6d113a67
+      internalID: -1765219903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_89
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 143
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 220e0e0199d1a624ab890f3385e68149
+      internalID: -1027215103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_90
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 140
+        width: 4
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0642a65091e4236478c13b59e456735d
+      internalID: 704909940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_115
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 146
+        width: 16
+        height: 4
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23d7ccd1d8ca2d2428993c29fb82047d
+      internalID: -622545990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_124
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 109
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 578e67626198c4b44b3c77188c7b6773
+      internalID: 427647115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_125
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 109
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a91907446f646b458c51b385e5b2b60
+      internalID: -961493571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_126
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 111
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 899b235e2bf42794cb322bc80a6d55f7
+      internalID: -870925434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_127
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7ce6aad2bdae5046968061f48b3420b
+      internalID: 446154651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_128
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d883d0e2e00db04585f7a4b1fe2f044
+      internalID: -779485128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_129
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1f894c1c22a29488639759c6337390
+      internalID: -335754654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_130
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb47483007097294494d113f87d178c8
+      internalID: -313904128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_139
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 109
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7479541ed9c3f6243a2ffe33196982b1
+      internalID: -760310376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_140
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 109
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c87ccea9cd69ccb4fbb421ac39bf10a9
+      internalID: -871663776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_141
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 115
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce25e401047f2f04abf74a1a3871a278
+      internalID: 2147256381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_142
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 115
+        width: 16
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4456877323b4f114390ed841d4a9f800
+      internalID: 534588340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_143
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffe9d40424dc3c4e84ab63988976e11
+      internalID: -133946227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_144
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 113
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6db0a5cd5b367234c8ed2fa0800a2320
+      internalID: 287440271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_145
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd83bbcecb71e0745a085bd1dc43c980
+      internalID: -1341846345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_146
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 114
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89d760e6415a73c4ead67a99525d32a9
+      internalID: -1560626993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_147
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 113
+        width: 5
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6ae7f20381b42d4fa90d9c7dc5a5a09
+      internalID: 704426510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_148
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c58b1076b87a06c4d96bdde5e68f789d
+      internalID: -1612943424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_149
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 114
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f27bf341d4a60564a81d2215f1c213eb
+      internalID: 160577971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_150
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 113
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8253bf395a60254c9cebfed77b29429
+      internalID: 272652624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_151
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 62
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34e719f4af2256b4fa299114ae57c2ce
+      internalID: 1130286004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_152
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 62
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 711a9aea6049ac747bb257f1a36474a0
+      internalID: 922681052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_153
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 62
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d58164d192b0d48b6ae608aacae06e
+      internalID: -2089320421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_154
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 876f616486251b34995d5c6e6fdad6f0
+      internalID: 132971619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_155
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea36f8290831754285608b051dc8755
+      internalID: 614414915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_156
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d4d443cc0ee1764fbdb172e5b5768a3
+      internalID: 2004032641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_157
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 70
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a47fa671817ecf5408bc334281788b11
+      internalID: 876413554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_158
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 45
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af3d7d06a9e8eb54ab58503097fc7a69
+      internalID: 1447755891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_159
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 45
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb9c82083db7ef4d968232c2226cee1
+      internalID: -677943091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_160
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 45
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5bc3c2a639371d4ea7c35c16eeea373
+      internalID: -587712359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_161
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dca1034a5c2cb845865748633a27675
+      internalID: -30593662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_162
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ede89baf051cade469d44f475c084e51
+      internalID: -602793427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_163
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d42f7b08cb8a4bc4794c53ee59da9455
+      internalID: -1061781605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_164
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f32e5ae436faf846a59814c135d1037
+      internalID: 840082725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_165
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8a17cd6241738c479bc52010ca3794d
+      internalID: 113562898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_166
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f9ea0bbaf571042aa9d26112dd0dcc
+      internalID: -781105082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_167
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 849367b2e59c0f44c8b0a57c439430a7
+      internalID: 97655166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_168
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30e21fc003abf0b49a8e68d383e444cf
+      internalID: 1858162082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_169
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4cb1d4c6c40f3404fa2b09de7a6904b3
+      internalID: 1006725804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_170
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 53
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c6fc9b9501f104ea8654a8e416bec9
+      internalID: -1807903148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_171
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6de7affee7c01c4ea9ce95e1bd74edb
+      internalID: -1808686149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_172
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec73a4fabd35a740857ac845a2cd9d6
+      internalID: -1625966531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_173
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ad0488ce8148dc47a7b395fac49f0f5
+      internalID: 1580398752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_174
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 201d3b78589a4784f9fd174d8075d91a
+      internalID: -1093574252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_175
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe938d635e234e40808b9eb53a88b0a
+      internalID: 1711622315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_176
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b690a35c568b2dd41aca7888b4286601
+      internalID: 1739623052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sin fondo(link, items....)_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96c32e7e2426b414486ef20dcf035757
+      internalID: -63823969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sin fondo(link, items....)_0: -418449095
+      sin fondo(link, items....)_1: -1369299558
+      sin fondo(link, items....)_10: -939552732
+      sin fondo(link, items....)_100: 1758340813
+      sin fondo(link, items....)_101: 940006592
+      sin fondo(link, items....)_102: -1851823324
+      sin fondo(link, items....)_103: 1100260089
+      sin fondo(link, items....)_104: 1174231081
+      sin fondo(link, items....)_105: 1789068321
+      sin fondo(link, items....)_106: -1191500533
+      sin fondo(link, items....)_107: 1247395654
+      sin fondo(link, items....)_108: -1982934948
+      sin fondo(link, items....)_109: -1677192815
+      sin fondo(link, items....)_11: -67380091
+      sin fondo(link, items....)_110: 1463236133
+      sin fondo(link, items....)_111: 760383713
+      sin fondo(link, items....)_112: 88032783
+      sin fondo(link, items....)_113: 73962270
+      sin fondo(link, items....)_114: 176589049
+      sin fondo(link, items....)_115: -622545990
+      sin fondo(link, items....)_116: -284764767
+      sin fondo(link, items....)_117: -1304222056
+      sin fondo(link, items....)_118: 554954157
+      sin fondo(link, items....)_119: 885518106
+      sin fondo(link, items....)_12: -1366081015
+      sin fondo(link, items....)_120: -1595947546
+      sin fondo(link, items....)_121: -201134962
+      sin fondo(link, items....)_122: -290107452
+      sin fondo(link, items....)_123: -1002627101
+      sin fondo(link, items....)_124: 427647115
+      sin fondo(link, items....)_125: -961493571
+      sin fondo(link, items....)_126: -870925434
+      sin fondo(link, items....)_127: 446154651
+      sin fondo(link, items....)_128: -779485128
+      sin fondo(link, items....)_129: -335754654
+      sin fondo(link, items....)_13: -633339614
+      sin fondo(link, items....)_130: -313904128
+      sin fondo(link, items....)_131: -673280971
+      sin fondo(link, items....)_132: 1917386533
+      sin fondo(link, items....)_133: -76175381
+      sin fondo(link, items....)_134: 1574783231
+      sin fondo(link, items....)_135: -2004173776
+      sin fondo(link, items....)_136: 546024855
+      sin fondo(link, items....)_137: -1475325681
+      sin fondo(link, items....)_138: 317016597
+      sin fondo(link, items....)_139: -760310376
+      sin fondo(link, items....)_14: 1529015473
+      sin fondo(link, items....)_140: -871663776
+      sin fondo(link, items....)_141: 2147256381
+      sin fondo(link, items....)_142: 534588340
+      sin fondo(link, items....)_143: -133946227
+      sin fondo(link, items....)_144: 287440271
+      sin fondo(link, items....)_145: -1341846345
+      sin fondo(link, items....)_146: -1560626993
+      sin fondo(link, items....)_147: 704426510
+      sin fondo(link, items....)_148: -1612943424
+      sin fondo(link, items....)_149: 160577971
+      sin fondo(link, items....)_15: -151339370
+      sin fondo(link, items....)_150: 272652624
+      sin fondo(link, items....)_151: 1130286004
+      sin fondo(link, items....)_152: 922681052
+      sin fondo(link, items....)_153: -2089320421
+      sin fondo(link, items....)_154: 132971619
+      sin fondo(link, items....)_155: 614414915
+      sin fondo(link, items....)_156: 2004032641
+      sin fondo(link, items....)_157: 876413554
+      sin fondo(link, items....)_158: 1447755891
+      sin fondo(link, items....)_159: -677943091
+      sin fondo(link, items....)_16: 1789418230
+      sin fondo(link, items....)_160: -587712359
+      sin fondo(link, items....)_161: -30593662
+      sin fondo(link, items....)_162: -602793427
+      sin fondo(link, items....)_163: -1061781605
+      sin fondo(link, items....)_164: 840082725
+      sin fondo(link, items....)_165: 113562898
+      sin fondo(link, items....)_166: -781105082
+      sin fondo(link, items....)_167: 97655166
+      sin fondo(link, items....)_168: 1858162082
+      sin fondo(link, items....)_169: 1006725804
+      sin fondo(link, items....)_17: 326368083
+      sin fondo(link, items....)_170: -1807903148
+      sin fondo(link, items....)_171: -1808686149
+      sin fondo(link, items....)_172: -1625966531
+      sin fondo(link, items....)_173: 1580398752
+      sin fondo(link, items....)_174: -1093574252
+      sin fondo(link, items....)_175: 1711622315
+      sin fondo(link, items....)_176: 1739623052
+      sin fondo(link, items....)_177: -63823969
+      sin fondo(link, items....)_18: -1765364452
+      sin fondo(link, items....)_19: -1485613508
+      sin fondo(link, items....)_2: -953514756
+      sin fondo(link, items....)_20: -745667892
+      sin fondo(link, items....)_21: -1798525300
+      sin fondo(link, items....)_22: 1912919566
+      sin fondo(link, items....)_23: 1942415707
+      sin fondo(link, items....)_24: -301024254
+      sin fondo(link, items....)_25: -1077935152
+      sin fondo(link, items....)_26: 621069598
+      sin fondo(link, items....)_27: -585559834
+      sin fondo(link, items....)_28: -902538614
+      sin fondo(link, items....)_29: 1322344357
+      sin fondo(link, items....)_3: -1994662007
+      sin fondo(link, items....)_30: -539053619
+      sin fondo(link, items....)_31: 1652036579
+      sin fondo(link, items....)_32: 1039713645
+      sin fondo(link, items....)_33: 1649820114
+      sin fondo(link, items....)_34: -771917928
+      sin fondo(link, items....)_35: -567655292
+      sin fondo(link, items....)_36: -1367223867
+      sin fondo(link, items....)_37: 43533665
+      sin fondo(link, items....)_38: -450279181
+      sin fondo(link, items....)_39: -387135708
+      sin fondo(link, items....)_4: -1678082550
+      sin fondo(link, items....)_40: -2129585378
+      sin fondo(link, items....)_41: -1628452232
+      sin fondo(link, items....)_42: -340776358
+      sin fondo(link, items....)_43: -808493815
+      sin fondo(link, items....)_44: -19653857
+      sin fondo(link, items....)_45: 65187191
+      sin fondo(link, items....)_46: -1634593883
+      sin fondo(link, items....)_47: 1486020562
+      sin fondo(link, items....)_48: 1574660585
+      sin fondo(link, items....)_49: -1729477098
+      sin fondo(link, items....)_5: -243817100
+      sin fondo(link, items....)_50: -393032403
+      sin fondo(link, items....)_51: 708856319
+      sin fondo(link, items....)_52: -1536634149
+      sin fondo(link, items....)_53: 1169610612
+      sin fondo(link, items....)_54: 310014302
+      sin fondo(link, items....)_55: 1928642729
+      sin fondo(link, items....)_56: -923265926
+      sin fondo(link, items....)_57: -1935397539
+      sin fondo(link, items....)_58: -1564426198
+      sin fondo(link, items....)_59: -902420740
+      sin fondo(link, items....)_6: -2131608454
+      sin fondo(link, items....)_60: -1185594767
+      sin fondo(link, items....)_61: -1912090777
+      sin fondo(link, items....)_62: 1427539588
+      sin fondo(link, items....)_63: 97709069
+      sin fondo(link, items....)_64: -1469900477
+      sin fondo(link, items....)_65: -1358582716
+      sin fondo(link, items....)_66: 232043476
+      sin fondo(link, items....)_67: -810013106
+      sin fondo(link, items....)_68: -788664485
+      sin fondo(link, items....)_69: -1453383656
+      sin fondo(link, items....)_7: 748096731
+      sin fondo(link, items....)_70: 133380831
+      sin fondo(link, items....)_71: -1392629260
+      sin fondo(link, items....)_72: -1959257634
+      sin fondo(link, items....)_73: -1941069316
+      sin fondo(link, items....)_74: 1466735054
+      sin fondo(link, items....)_75: 1258387612
+      sin fondo(link, items....)_76: -1535388975
+      sin fondo(link, items....)_77: -947637285
+      sin fondo(link, items....)_78: -1190011538
+      sin fondo(link, items....)_79: -116508187
+      sin fondo(link, items....)_8: 1451879643
+      sin fondo(link, items....)_80: 145355941
+      sin fondo(link, items....)_81: -583236569
+      sin fondo(link, items....)_82: -95968347
+      sin fondo(link, items....)_83: 1763500847
+      sin fondo(link, items....)_84: 1260806794
+      sin fondo(link, items....)_85: -858170460
+      sin fondo(link, items....)_86: -802174288
+      sin fondo(link, items....)_87: 1921286553
+      sin fondo(link, items....)_88: -1765219903
+      sin fondo(link, items....)_89: -1027215103
+      sin fondo(link, items....)_9: 959116958
+      sin fondo(link, items....)_90: 704909940
+      sin fondo(link, items....)_91: -607897011
+      sin fondo(link, items....)_92: -2098522341
+      sin fondo(link, items....)_93: -182020816
+      sin fondo(link, items....)_94: -503917910
+      sin fondo(link, items....)_95: -1365828144
+      sin fondo(link, items....)_96: 834137089
+      sin fondo(link, items....)_97: 709794416
+      sin fondo(link, items....)_98: -95911061
+      sin fondo(link, items....)_99: -904537418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
