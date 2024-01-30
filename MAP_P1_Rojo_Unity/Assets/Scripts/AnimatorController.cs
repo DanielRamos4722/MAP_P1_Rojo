@@ -4,22 +4,52 @@ using UnityEngine;
 
 public class AnimatorController : MonoBehaviour
 {
-    Animator anim;
-    CharacterController controller;
-    private void OnAnimatorIK(int layerIndex)
+    private Rigidbody2D rb;
+    private Animator animator;
+
+    void Start()
     {
-        Vector3 _linkVel = controller.velocity;
-        if(_linkVel == Vector3.fwd)
+        rb = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
+
+    void Update()
+    {
+        // Detecta las teclas de flecha
+        if (Input.GetKeyDown(KeyCode.UpArrow))
         {
-            anim.SetInteger("AnimState", 0);
+            animator.SetInteger("AnimState", 0);
         }
-        else if (_linkVel == -Vector3.fwd)
+        else if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            anim.SetInteger("AnimState", 1);
+            animator.SetInteger("AnimState", 1);
         }
-        else if(_linkVel == Vector3.right)
+        else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            anim.SetInteger("AnimState", 2);
+            if(transform.rotation == Quaternion.identity)
+            {
+                animator.SetInteger("AnimState", 2);
+            }
+            else
+            {
+                animator.SetInteger("AnimState", 2);
+                transform.rotation = Quaternion.Euler(0f, 0f, 0f);
+            }
         }
+        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        {
+            animator.SetInteger("AnimState", 2);
+            transform. rotation = Quaternion.Euler(0f,180f,0f);
+        }
+        else if (!Input.anyKey)
+        {
+            animator.SetInteger("AnimState", 3);
+        }
+    }
+
+    void SetAnimation(string animationName)
+    {
+        // Cambia la animación
+        animator.Play(animationName);
     }
 }
