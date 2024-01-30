@@ -5,11 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - OctorokR
+  - cuadrado2
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - nabo
   - Water
   - UI
   - 
@@ -39,6 +40,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: 1
+    uniqueID: 2871535963
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 2
+    uniqueID: 3549812465
     locked: 0
