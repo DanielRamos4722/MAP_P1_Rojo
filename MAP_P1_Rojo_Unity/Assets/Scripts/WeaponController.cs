@@ -7,7 +7,7 @@ public class WeaponController : MonoBehaviour
     EnemyController enemyController;
     private void OnTriggerEnter2D(Collider2D collider)
     {
-        Debug.Log("Detect");
+       
         enemyController = collider.GetComponent<EnemyController>();
         if (enemyController != null) 
         {
