@@ -5,15 +5,20 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int money;
+    private int money,bombs;
     void Start()
     {
-        money = 0;
+        money =bombs = 0;
     }
     public void AddMoney(int i) 
     {
         money += i;
         Debug.Log(money);
+    }
+    public void AddBomb()
+    {
+        bombs++;
+        Debug.Log(bombs);
     }
 
     // Update is called once per frame
