@@ -11,6 +11,12 @@ public class CameraController : MonoBehaviour
     [SerializeField] GameObject link;
     InputManager inputManager;
 
+    // Atributos para la caja que determina los bordes de la pantalla del juego (sin UI)
+    float BoxSizeX = 13.3f;
+    float BoxSizeY =  7f;
+    float BoxOffsetX = 0f;
+    float BoxOffsetY = -1.5f;
+
     float xDistance;
     float yDistance;
 
@@ -21,7 +27,8 @@ public class CameraController : MonoBehaviour
         myTransform = transform;
 
         boxColl = GetComponent<BoxCollider2D>();
-        boxColl.size = new Vector2((10f / Screen.height * Screen.width) - margen, 10 - margen);
+        boxColl.size = new Vector2(BoxSizeX, BoxSizeY);
+        boxColl.offset = new Vector2(BoxOffsetX, BoxOffsetY);
 
         xDistance = ((10f / Screen.height * Screen.width) / 2) - 0.2f;
         yDistance = 4.8f;
@@ -53,7 +60,7 @@ public class CameraController : MonoBehaviour
         else if (yLink > yDistance)
             targetPos = currentPos + new Vector3(0, boxColl.size.y, 0);
         else
-            targetPos = currentPos + new Vector3(0, -boxColl.size.y, 0);
+            targetPos = currentPos + new Vector3(0, boxColl.size.y, 0);
 
         while (myTransform.position != targetPos)
         {
