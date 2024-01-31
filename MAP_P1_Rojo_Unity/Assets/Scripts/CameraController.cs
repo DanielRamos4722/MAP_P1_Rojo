@@ -13,9 +13,9 @@ public class CameraController : MonoBehaviour
 
     // Atributos para la caja que determina los bordes de la pantalla del juego (sin UI)
     float BoxSizeX = 13.3f;
-    float BoxSizeY =  7f;
+    float BoxSizeY =  7.15f;
     float BoxOffsetX = 0f;
-    float BoxOffsetY = -1.5f;
+    float BoxOffsetY = -1.425f;
 
     float xDistance;
     float yDistance;
