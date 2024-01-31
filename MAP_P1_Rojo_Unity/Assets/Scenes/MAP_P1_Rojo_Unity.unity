@@ -3950,6 +3950,14 @@ PrefabInstance:
       value: rupia
       objectReference: {fileID: 0}
     - target: {fileID: 8955042028610343594, guid: 1e9d37f62440dca45b55be7ff46bf805, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955042028610343594, guid: 1e9d37f62440dca45b55be7ff46bf805, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8955042028610343594, guid: 1e9d37f62440dca45b55be7ff46bf805, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.1054792
       objectReference: {fileID: 0}
