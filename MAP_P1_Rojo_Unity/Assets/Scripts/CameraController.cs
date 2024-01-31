@@ -31,7 +31,7 @@ public class CameraController : MonoBehaviour
         boxColl.offset = new Vector2(BoxOffsetX, BoxOffsetY);
 
         xDistance = ((10f / Screen.height * Screen.width) / 2) - 0.2f;
-        yDistance = 4.8f;
+        yDistance = 4.8f + BoxOffsetY;
     }
 
     // Update is called once per frame
@@ -51,7 +51,7 @@ public class CameraController : MonoBehaviour
         Vector3 targetPos;
 
         float xLink = link.transform.position.x - myTransform.position.x;
-        float yLink = link.transform.position.y - myTransform.position.y;
+        float yLink = link.transform.position.y - (myTransform.position.y + BoxOffsetY);
 
         if (xLink > xDistance)
             targetPos = currentPos + new Vector3(boxColl.size.x, 0, 0);
@@ -60,7 +60,7 @@ public class CameraController : MonoBehaviour
         else if (yLink > yDistance)
             targetPos = currentPos + new Vector3(0, boxColl.size.y, 0);
         else
-            targetPos = currentPos + new Vector3(0, boxColl.size.y, 0);
+            targetPos = currentPos + new Vector3(0, -boxColl.size.y, 0);
 
         while (myTransform.position != targetPos)
         {
