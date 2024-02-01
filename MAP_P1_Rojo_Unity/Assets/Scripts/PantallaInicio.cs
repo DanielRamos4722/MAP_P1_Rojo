@@ -8,9 +8,10 @@ using UnityEngine.UIElements;
 public class PantallaInicio : MonoBehaviour
 {
     [SerializeField]
-    private float speed;
+    private float speed = 1.2f;
     void Update()
     {
+
         transform.position += Vector3.down * speed * Time.deltaTime;
     }
 
