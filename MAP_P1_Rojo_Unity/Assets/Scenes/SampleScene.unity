@@ -215,6 +215,120 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &2078071073
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 3.4205546
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.43042445
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1241461451896472548, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6281212379382843067, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: m_Name
+      value: Octorok_Red (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+--- !u!1001 &5812985875950398449
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -4.459259
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.20396733
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4701304213995271693, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447235378109185457, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
+      propertyPath: m_Name
+      value: Octorok_Blue
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 6812de0459d3b1e41b3f2d1fc2b03e3d, type: 3}
 --- !u!1001 &9032628510261069939
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -263,6 +377,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1329749995956903712, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
+      propertyPath: bullet
+      value: 
+      objectReference: {fileID: 1736028862672140108, guid: ce393341c9ebc684685d1a5829c3e6b5, type: 3}
     - target: {fileID: 6281212379382843067, guid: f5407aa04fec90842886994f4ff854a1, type: 3}
       propertyPath: m_Name
       value: Octorok_Red
@@ -278,3 +396,5 @@ SceneRoots:
   m_Roots:
   - {fileID: 519420032}
   - {fileID: 9032628510261069939}
+  - {fileID: 2078071073}
+  - {fileID: 5812985875950398449}
