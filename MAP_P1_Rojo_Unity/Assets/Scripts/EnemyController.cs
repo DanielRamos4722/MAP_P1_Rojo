@@ -8,6 +8,9 @@ public class EnemyController : MonoBehaviour
     private Transform _myTransform;
     public int maxhealth; 
         private int initialmaxhealth;
+    public GameObject Rupia;
+    public GameObject RupiaAzul;
+    public GameObject Corazón;
     private void Awake()
     {
         //Esto luego se hará algo para cambiarlo para cada enemigo, ¿con un public o algo así?
@@ -36,19 +39,19 @@ public class EnemyController : MonoBehaviour
         //decidir cuál será el drop para el enemigo
         int i;
          Randomize(100,out i);
-        i = i * initialmaxhealth;
+        i +=  initialmaxhealth*2;
         if (i <= 40) { }
         else if(i<=65)
         {
-            // Instantiate(rupí, _myTransform.position)
+            Instantiate(Rupia, _myTransform.position,new Quaternion (0,0,0,0));
         }
         else if (i <= 90) 
         {
-            //Instantiate (vida, _myTransform.position)
+           Instantiate(Corazón, _myTransform.position, new Quaternion(0, 0, 0, 0));
         }
         else if (i >90) 
         {
-            //Instantiate (rupí azul, _myTransform.position)
+            Instantiate(RupiaAzul, _myTransform.position, new Quaternion(0, 0, 0, 0));
         }
 
     }
