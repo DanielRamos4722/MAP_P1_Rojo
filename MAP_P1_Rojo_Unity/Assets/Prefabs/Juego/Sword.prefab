@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5671641637641163214}
   - component: {fileID: 6485295583709502671}
-  - component: {fileID: 6713832260442007874}
+  - component: {fileID: -234334324933969372}
   m_Layer: 0
   m_Name: Sword
   m_TagString: Untagged
@@ -27,8 +27,8 @@ Transform:
   m_GameObject: {fileID: 1702361048309511238}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.9664659, y: 1.1526635, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -9.71, z: 0}
+  m_LocalScale: {x: 4, y: 4, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -74,18 +74,18 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: -116508187, guid: dc882ecadd375bd43ac165ad6e604851, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.07, y: 0.16}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &6713832260442007874
+--- !u!114 &-234334324933969372
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
