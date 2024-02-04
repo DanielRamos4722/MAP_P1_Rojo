@@ -8,6 +8,9 @@ public class CameraController : MonoBehaviour
     private Transform myTransform;
     private BoxCollider2D boxColl;
 
+    public GameObject MinimapLink;
+    public float moveAmount = 1.0f;
+
     [SerializeField] GameObject link;
     InputManager inputManager;
 
@@ -54,13 +57,29 @@ public class CameraController : MonoBehaviour
         float yLink = link.transform.position.y - (myTransform.position.y + BoxOffsetY);
 
         if (xLink > xDistance)
+        {
             targetPos = currentPos + new Vector3(boxColl.size.x, 0, 0);
+            MinimapLink.transform.Translate(new Vector3(moveAmount,0,0));
+        }
+            
         else if (xLink < -xDistance)
+        {
             targetPos = currentPos + new Vector3(-boxColl.size.x, 0, 0);
+            MinimapLink.transform.Translate(new Vector3(-moveAmount, 0, 0));
+        }
+            
         else if (yLink > yDistance)
+        {
             targetPos = currentPos + new Vector3(0, boxColl.size.y, 0);
+            MinimapLink.transform.Translate(new Vector3(0, moveAmount, 0));
+        }
+            
         else
+        {
             targetPos = currentPos + new Vector3(0, -boxColl.size.y, 0);
+            MinimapLink.transform.Translate(new Vector3(0, -moveAmount, 0));
+        }
+            
 
         while (myTransform.position != targetPos)
         {
