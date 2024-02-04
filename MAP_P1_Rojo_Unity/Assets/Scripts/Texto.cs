@@ -14,7 +14,7 @@ public class Texto : MonoBehaviour
 
 
     [SerializeField] TextMeshProUGUI text;
-    string textoAux = "IT'S DANGEROUS TO GO ALONE! TAKE THIS.";
+    string textoAux = "IT'S DANGEROUS TO GO ALONE! TAKE THIS .";
     IEnumerator Escritura()
     {
 
@@ -25,7 +25,7 @@ public class Texto : MonoBehaviour
             texto += textoAux[i];
             print(texto);
             text.text = texto;
-            yield return new WaitForSeconds(0.3f);
+            yield return new WaitForSeconds(0.1f);
         }
     }
 
