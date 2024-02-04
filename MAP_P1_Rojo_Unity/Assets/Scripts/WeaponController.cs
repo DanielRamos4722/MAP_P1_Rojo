@@ -21,7 +21,8 @@ public class WeaponController : MonoBehaviour
         playerController= collider.GetComponent<PlayerController>();
             if(playerController != null) 
             {
-            
+            inputManager.CanAttack();
+                Destroy(this.gameObject);
             }
         }
     }
