@@ -6,7 +6,8 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private Transform _myTransform;
-    int maxhealth, initialmaxhealth;
+    public int maxhealth; 
+        private int initialmaxhealth;
     private void Awake()
     {
         //Esto luego se hará algo para cambiarlo para cada enemigo, ¿con un public o algo así?

@@ -1,3 +1,4 @@
+using JetBrains.Annotations;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.Experimental.GraphView;
@@ -5,7 +6,10 @@ using UnityEngine;
 
 public class InputManager : MonoBehaviour
 {
-    public Playermove _playermove; 
+    public Playermove _playermove;
+    public PlayerController controller;
+    private bool canattack=false;
+    //para que pueda atacar cuando esté activo
     // Start is called before the first frame update
     void Start()
     {
@@ -34,5 +38,14 @@ public class InputManager : MonoBehaviour
             direction.x = 1;
         }
         _playermove.Changedirection(direction);
+        if (Input.GetKeyDown(KeyCode.Z)&&canattack==true) 
+        {
+        controller.Attack();
+        } 
+        
+    }
+    public void CanAttack() 
+    {
+    canattack = true;
     }
 }

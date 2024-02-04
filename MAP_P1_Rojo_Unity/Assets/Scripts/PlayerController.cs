@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerController : MonoBehaviour
 {
@@ -36,6 +37,10 @@ public class PlayerController : MonoBehaviour
     private void Die()
     {
         //Aquí se puede poner la animación de Game over y que se paren los enemigos
+    }
+    public void Attack()
+    {
+        maxhealth--;
     }
 
     // Update is called once per frame

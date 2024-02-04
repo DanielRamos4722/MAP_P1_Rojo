@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6158089903543939586}
   - component: {fileID: 1329749995956903712}
   - component: {fileID: 1160139019736596648}
+  - component: {fileID: -8917527992974059218}
   m_Layer: 0
   m_Name: Octorok_Red
   m_TagString: OctorokR
@@ -120,8 +121,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec7e7d676a1b78b47ad3dabc3309bc25, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  anim: {fileID: 0}
-  spriteR: {fileID: 0}
   bullet: {fileID: 1736028862672140108, guid: ce393341c9ebc684685d1a5829c3e6b5, type: 3}
   dir: 4
 --- !u!61 &1160139019736596648
@@ -153,7 +152,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -169,3 +168,15 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-8917527992974059218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6281212379382843067}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93cf5cb637e83b041ba72873340f4938, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
