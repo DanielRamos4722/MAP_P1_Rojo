@@ -41,13 +41,13 @@ public class AnimatorController : MonoBehaviour
             animator.SetInteger("AnimState", 2);
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
-        else if (Input.GetKeyDown(KeyCode.Z))
-        {
-            animator.SetInteger("AnimState", 4);
-        }
         else if (!Input.anyKey)
         {
             animator.SetInteger("AnimState", 3);
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
+        {
+            animator.SetTrigger("AnimTrigger");
         }
     }
 
