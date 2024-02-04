@@ -8,44 +8,46 @@ public class InputManager : MonoBehaviour
 {
     public Playermove _playermove;
     public PlayerController controller;
-    private bool canattack=false;
+    private bool canattack = false;
+    public Animator animator;
     //para que pueda atacar cuando esté activo
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
     Vector2 direction = Vector2.zero;
     // Update is called once per frame
     void Update()
     {
-         direction = Vector3.zero;
+        direction = Vector3.zero;
 
-        if (Input.GetKey(KeyCode.UpArrow)) 
+        if (Input.GetKey(KeyCode.UpArrow))
         {
-        direction.y=1;
+            direction.y = 1;
         }
-      else  if (Input.GetKey(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow))
         {
             direction.y = -1;
         }
-       if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow))
         {
             direction.x = -1;
         }
-    else    if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow))
         {
             direction.x = 1;
         }
         _playermove.Changedirection(direction);
-        if (Input.GetKeyDown(KeyCode.Z)&&canattack==true) 
+        if (Input.GetKeyDown(KeyCode.Z) && canattack == true)
         {
-        controller.Attack();
-        } 
-        
+            controller.Attack();
+        }
+
     }
-    public void CanAttack() 
+    public void CanAttack()
     {
-    canattack = true;
+        animator.Play("CogerObjeto");
+        canattack = true;
     }
 }
