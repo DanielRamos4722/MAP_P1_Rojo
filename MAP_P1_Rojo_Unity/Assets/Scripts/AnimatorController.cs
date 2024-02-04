@@ -26,7 +26,7 @@ public class AnimatorController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.RightArrow))
         {
-            if(transform.rotation == Quaternion.identity)
+            if (transform.rotation == Quaternion.identity)
             {
                 animator.SetInteger("AnimState", 2);
             }
@@ -39,7 +39,11 @@ public class AnimatorController : MonoBehaviour
         else if (Input.GetKeyDown(KeyCode.LeftArrow))
         {
             animator.SetInteger("AnimState", 2);
-            transform. rotation = Quaternion.Euler(0f,180f,0f);
+            transform.rotation = Quaternion.Euler(0f, 180f, 0f);
+        }
+        else if (Input.GetKeyDown(KeyCode.Z))
+        {
+            animator.SetInteger("AnimState", 4);
         }
         else if (!Input.anyKey)
         {
