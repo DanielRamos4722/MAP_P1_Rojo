@@ -5,7 +5,7 @@ using UnityEngine;
 public class AnimatorController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private Animator animator;
+    public Animator animator;
 
     void Start()
     {

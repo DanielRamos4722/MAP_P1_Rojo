@@ -1249,6 +1249,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c48b30e31201fc41b054cecd6f974dc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  animator: {fileID: 0}
 --- !u!114 &788437562
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1904,8 +1905,8 @@ TilemapRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1260779457
+  m_SortingLayer: -2
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
   m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
@@ -22910,6 +22911,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 360840174036510576, guid: db5d80f58a9cc284db2fc2fbbb03241f, type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 360840174036510576, guid: db5d80f58a9cc284db2fc2fbbb03241f, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1260779457
+      objectReference: {fileID: 0}
     - target: {fileID: 3281964149086372061, guid: db5d80f58a9cc284db2fc2fbbb03241f, type: 3}
       propertyPath: m_Size.x
       value: 0.8258486
@@ -22993,6 +23002,14 @@ PrefabInstance:
     - target: {fileID: 576934140048332285, guid: 90d48d36c5b96094ab8f2071dea8eb22, type: 3}
       propertyPath: m_Name
       value: CuadriculaParedesCueva
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807927558661867947, guid: 90d48d36c5b96094ab8f2071dea8eb22, type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2807927558661867947, guid: 90d48d36c5b96094ab8f2071dea8eb22, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -1260779457
       objectReference: {fileID: 0}
     - target: {fileID: 7556246068598151724, guid: 90d48d36c5b96094ab8f2071dea8eb22, type: 3}
       propertyPath: m_LocalPosition.x
