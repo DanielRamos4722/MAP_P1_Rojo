@@ -2,11 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
-    private int money,bombs, maxhealth, health;
+    private int money, bombs, maxhealth, health;
+    int scene;
+    private void Awake()
+    {
+        scene = SceneManager.GetActiveScene().buildIndex;
+    }
     void Start()
     {
         money =bombs = 0;
@@ -36,7 +42,7 @@ public class PlayerController : MonoBehaviour
     }
     private void Die()
     {
-        //Aquí se puede poner la animación de Game over y que se paren los enemigos
+        SceneManager.LoadScene(scene);
     }
     public void Attack()
     {

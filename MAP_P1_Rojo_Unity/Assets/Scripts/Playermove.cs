@@ -5,7 +5,7 @@ using UnityEngine;
 public class Playermove : MonoBehaviour
 {
     //CharacterController controller;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Transform _transform;
     // Start is called before the first frame update
     void Start()

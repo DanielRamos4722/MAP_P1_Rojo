@@ -7,10 +7,10 @@ public class EnemyController : MonoBehaviour
 {
     private Transform _myTransform;
     public int maxhealth; 
-        private int initialmaxhealth;
+    private int initialmaxhealth;
     public GameObject Rupia;
     public GameObject RupiaAzul;
-    public GameObject Corazón;
+    public GameObject Corazon;
     private void Awake()
     {
         //Esto luego se hará algo para cambiarlo para cada enemigo, ¿con un public o algo así?
@@ -31,7 +31,7 @@ public class EnemyController : MonoBehaviour
     }
     private void Death()
     {
-        Drop();
+        //Drop();
         Destroy(gameObject);
     }
     private void Drop()
@@ -47,7 +47,7 @@ public class EnemyController : MonoBehaviour
         }
         else if (i <= 90) 
         {
-           Instantiate(Corazón, _myTransform.position, new Quaternion(0, 0, 0, 0));
+           Instantiate(Corazon, _myTransform.position, new Quaternion(0, 0, 0, 0));
         }
         else if (i >90) 
         {
@@ -65,5 +65,24 @@ public class EnemyController : MonoBehaviour
     void Update()
     {
         
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Playermove playermove = collision.gameObject.GetComponent<Playermove>();
+        print("va");
+
+        if (playermove)
+        {
+            Vector3 guaya = (collision.gameObject.transform.position - _myTransform.position) - collision.transform.position;
+
+            playermove.rb.AddForce(guaya.normalized * 3);
+            print("va");
+        }
     }
 }

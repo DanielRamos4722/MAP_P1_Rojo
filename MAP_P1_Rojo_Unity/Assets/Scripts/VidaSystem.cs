@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 
 public class VidaSystem : MonoBehaviour
@@ -15,12 +16,11 @@ public class VidaSystem : MonoBehaviour
     public Sprite lleno;
     public Sprite medio;
     public Sprite vacio;
-    void Start()
+    int scene;
+    private void Awake()
     {
-
+        scene = SceneManager.GetActiveScene().buildIndex;
     }
-
-
 
     void Update()
     {
@@ -59,6 +59,11 @@ public class VidaSystem : MonoBehaviour
             {
                 corazon[i].enabled = false;
             }
+        }
+
+        if(vida == 0)
+        {
+            SceneManager.LoadScene(scene);
         }
 
     }

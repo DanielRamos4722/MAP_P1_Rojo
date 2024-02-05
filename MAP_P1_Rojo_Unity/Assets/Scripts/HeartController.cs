@@ -13,7 +13,6 @@ public class HeartController : MonoBehaviour
         {
             controller.AddHealth();
             Destroy(gameObject);
-
         }
     }
 }

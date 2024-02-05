@@ -23,4 +23,13 @@ public class BulletMovement : MonoBehaviour
         yield return new WaitForSeconds(4);
         Destroy(gameObject);
     }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        VidaSystem vidaSys = collision.gameObject.GetComponent<VidaSystem>();
+        if (vidaSys)
+        {
+            vidaSys.vida--;
+        }
+    }
 }
