@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Playermove : MonoBehaviour
 {
     //CharacterController controller;
-    Rigidbody2D rb;
+    public Rigidbody2D rb;
     private Transform _transform;
     // Start is called before the first frame update
     void Start()
@@ -25,7 +26,19 @@ public class Playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      //controller.Move(direction*Time.deltaTime*speed);  
-      _transform.position += (direction * Time.deltaTime * speed);
+
+        var gamepad = Gamepad.current;
+        Vector2 movementinput = gamepad.leftStick.ReadValue();
+        if (movementinput.x==0&&movementinput.y==0)
+        {
+            _transform.position += (direction * Time.deltaTime * speed);
+        }
+        else
+        {
+            
+            direction = new Vector3(movementinput.x, movementinput.y, 0);
+            _transform.position += (direction * Time.deltaTime * speed);
+
+        }
     }
 }

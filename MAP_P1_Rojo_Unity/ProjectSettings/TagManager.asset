@@ -6,6 +6,9 @@ TagManager:
   tags:
   - OctorokR
   - cuadrado2
+  - OctorokB
+  - Cueva
+  - Link
   layers:
   - Default
   - TransparentFX
@@ -40,6 +43,9 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3034187839
+    locked: 0
   - name: 1
     uniqueID: 2871535963
     locked: 0
@@ -48,4 +54,7 @@ TagManager:
     locked: 0
   - name: 2
     uniqueID: 3549812465
+    locked: 0
+  - name: UI
+    uniqueID: 1115647107
     locked: 0
