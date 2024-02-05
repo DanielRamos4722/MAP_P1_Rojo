@@ -180,3 +180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93cf5cb637e83b041ba72873340f4938, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxhealth: 0
+  Rupia: {fileID: 5561274386203773347, guid: 5a6da4fa29dcba04782d09bb7769fd92, type: 3}
+  RupiaAzul: {fileID: 5561274386203773347, guid: 423923e1c5c75e84996b3a07eecbf099, type: 3}
+  Corazon: {fileID: 1853890970961113016, guid: 5855d02b7d01636478f959394d9ad24d, type: 3}
