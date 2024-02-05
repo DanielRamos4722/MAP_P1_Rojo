@@ -5,7 +5,7 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     EnemyController enemyController;
-    InputManager inputManager;
+   public InputManager inputManager;
     PlayerController playerController;
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -16,20 +16,20 @@ public class WeaponController : MonoBehaviour
             Debug.Log("Hit");
             enemyController.Damaged();
         }
-        else
-        {
+       
+       
             playerController = collider.GetComponent<PlayerController>();
             if (playerController != null)
             {
                 inputManager.CanAttack();
                 Destroy(this.gameObject);
             }
-        }
+       
     }
     // Start is called before the first frame update
     void Start()
     {
-        inputManager = GetComponent<InputManager>();
+        
     }
 
     // Update is called once per frame
