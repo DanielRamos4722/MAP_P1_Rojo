@@ -22,19 +22,19 @@ public class InputManager : MonoBehaviour
     {
         direction = Vector3.zero;
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.UpArrow)|| Input.GetKey(KeyCode.W))
         {
             direction.y = 1;
         }
-        else if (Input.GetKey(KeyCode.DownArrow))
+        else if (Input.GetKey(KeyCode.DownArrow)|| Input.GetKey(KeyCode.S))
         {
             direction.y = -1;
         }
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow)||Input.GetKey(KeyCode.A))
         {
             direction.x = -1;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow)|| Input.GetKey(KeyCode.D))
         {
             direction.x = 1;
         }
