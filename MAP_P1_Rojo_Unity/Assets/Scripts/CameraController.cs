@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraController : MonoBehaviour
 {
@@ -21,6 +22,13 @@ public class CameraController : MonoBehaviour
 
     float xDistance;
     float yDistance;
+
+    int scene;
+
+    private void Awake()
+    {
+        scene = SceneManager.GetActiveScene().buildIndex;
+    }
 
     // Start is called before the first frame update
     void Start()
@@ -44,7 +52,8 @@ public class CameraController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        StartCoroutine(Desplazamiento());
+        if(scene == 1)
+            StartCoroutine(Desplazamiento());
     }
 
     IEnumerator Desplazamiento()

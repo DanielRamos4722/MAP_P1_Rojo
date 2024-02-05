@@ -61,5 +61,10 @@ public class VidaSystem : MonoBehaviour
             }
         }
 
+        if(vida == 0)
+        {
+            Destroy(gameObject);
+        }
+
     }
 }
