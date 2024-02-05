@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class Playermove : MonoBehaviour
 {
@@ -25,7 +26,12 @@ public class Playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      //controller.Move(direction*Time.deltaTime*speed);  
-      _transform.position += (direction * Time.deltaTime * speed);
+
+        var gamepad = Gamepad.current;
+        Vector2 movementinput = gamepad.leftStick.ReadValue();
+        direction = new Vector3(movementinput.x, movementinput.y, 0);
+         
+        _transform.position += (direction * Time.deltaTime * speed);
+      
     }
 }
