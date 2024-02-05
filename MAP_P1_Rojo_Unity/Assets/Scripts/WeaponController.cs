@@ -13,6 +13,7 @@ public class WeaponController : MonoBehaviour
         enemyController = collider.GetComponent<EnemyController>();
         if (enemyController != null)
         {
+
             Debug.Log("Hit");
             enemyController.Damaged();
         }

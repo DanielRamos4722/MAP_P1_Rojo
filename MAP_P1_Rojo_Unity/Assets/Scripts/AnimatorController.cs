@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
+using UnityEngine.Audio;
 
 public class AnimatorController : MonoBehaviour
 {
     private Rigidbody2D rb;
     public Animator animator;
-
+    public AudioSource clip;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -47,6 +49,7 @@ public class AnimatorController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Z))
         {
+            clip.Play();
             animator.SetTrigger("AnimTrigger");
         }
     }
@@ -56,4 +59,6 @@ public class AnimatorController : MonoBehaviour
         // Cambia la animación
         animator.Play(animationName);
     }
+
+    
 }
