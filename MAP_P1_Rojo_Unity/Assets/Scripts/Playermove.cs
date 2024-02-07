@@ -28,9 +28,19 @@ public class Playermove : MonoBehaviour
     {
 
         var gamepad = Gamepad.current;
-        Vector2 movementinput = gamepad.leftStick.ReadValue();
-        direction = new Vector3(movementinput.x, movementinput.y, 0);
-         
+        if (gamepad != null) 
+        {
+            Vector2 movementinput = gamepad.leftStick.ReadValue();
+            if (movementinput.x == 0 && movementinput.y == 0)
+            {
+
+            }
+            else
+            {
+                direction = new Vector3(movementinput.x, movementinput.y, 0);
+            }
+        }
+        
         _transform.position += (direction * Time.deltaTime * speed);
       
     }
