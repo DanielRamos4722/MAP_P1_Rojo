@@ -14,4 +14,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/PantallaInicio.unity
+    guid: d93ed77113988ea4fb40d68a52d6c683
+  - enabled: 1
+    path: Assets/Scenes/Cueva.unity
+    guid: f79ecc6b77045d84e90f26b33218a754
   m_configObjects: {}

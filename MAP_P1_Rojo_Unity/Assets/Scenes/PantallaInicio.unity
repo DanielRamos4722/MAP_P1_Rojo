@@ -489,12 +489,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 799566634}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 21376f07c1f95f646ae1aa4e4a1acfe2, type: 3}
+  m_Script: {fileID: 11500000, guid: 2a1281b295bc7d44192dc6e21e8e1edf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMovimiento: 1.2
-  primeraPosicionFinal: {x: 0, y: -8.2, z: 0}
-  segundaPosicionFinal: {x: 0, y: -77.5, z: 0}
+  primeraPosicionFinal: {x: 0, y: -8.22, z: 0}
+  segundaPosicionFinal: {x: 0, y: -77.8, z: 0}
   tiempoDeEspera: 4
 --- !u!1 &1096305692
 GameObject:
