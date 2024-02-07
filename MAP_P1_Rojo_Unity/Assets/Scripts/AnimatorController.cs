@@ -9,24 +9,47 @@ public class AnimatorController : MonoBehaviour
     private Rigidbody2D rb;
     public Animator animator;
     public AudioSource clip;
+    [SerializeField]
+    private Transform player;
+    bool horizontal;
+    bool vertical;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = player.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+    }
+    private void Position()
+    {
+        if(Mathf.Abs(rb.velocity.x) > 0.1f)
+        {
+            horizontal = true;
+        }
+        else if (Mathf.Abs(rb.velocity.x) < -0.1f)
+        {
+            horizontal = false;
+        }
+        if(Mathf.Abs(rb.velocity.y) > 0.1f)
+        {
+            vertical = true;
+        }
+        else if (Mathf.Abs(rb.velocity.y) < -0.1f)
+        {
+            vertical = false;
+        }
     }
 
     void Update()
     {
         // Detecta las teclas de flecha
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (vertical)
         {
             animator.SetInteger("AnimState", 0);
         }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
+        else if (!vertical)
         {
             animator.SetInteger("AnimState", 1);
         }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
+        else if (horizontal)
         {
             if (transform.rotation == Quaternion.identity)
             {
@@ -38,12 +61,12 @@ public class AnimatorController : MonoBehaviour
                 transform.rotation = Quaternion.Euler(0f, 0f, 0f);
             }
         }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
+        else if (!horizontal)
         {
             animator.SetInteger("AnimState", 2);
             transform.rotation = Quaternion.Euler(0f, 180f, 0f);
         }
-        else if (!Input.anyKey)
+        else if (rb.velocity.x == 0 && rb.velocity.y == 0)
         {
             animator.SetInteger("AnimState", 3);
         }
