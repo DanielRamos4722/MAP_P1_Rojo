@@ -4,7 +4,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.Audio;
 
-public class Texto : MonoBehaviour
+public class Tienda : MonoBehaviour
 {
 
     public AudioSource clip;
@@ -17,7 +17,7 @@ public class Texto : MonoBehaviour
 
 
     [SerializeField] TextMeshProUGUI text;
-    string textoAux = "IT'S DANGEROUS TO GO ALONE! TAKE THIS .";
+    string textoAux = "BUY SOMETHIN' WILL YA!";
     IEnumerator Escritura()
     {
 
