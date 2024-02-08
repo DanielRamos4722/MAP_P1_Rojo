@@ -8,6 +8,7 @@ public class Playermove : MonoBehaviour
     //CharacterController controller;
     public Rigidbody2D rb;
     private Transform _transform;
+    Vector3 dir;
     // Start is called before the first frame update
     void Start()
     {
@@ -27,21 +28,15 @@ public class Playermove : MonoBehaviour
     void Update()
     {
 
-        var gamepad = Gamepad.current;
-        if (gamepad != null) 
-        {
-            Vector2 movementinput = gamepad.leftStick.ReadValue();
-            if (movementinput.x == 0 && movementinput.y == 0)
-            {
-
-            }
-            else
-            {
-                direction = new Vector3(movementinput.x, movementinput.y, 0);
-            }
-        }
-        
-        _transform.position += (direction * Time.deltaTime * speed);
+        /*var gamepad = Gamepad.current;
+        Vector2 movementinput = gamepad.leftStick.ReadValue();
+        direction = new Vector3(movementinput.x, movementinput.y, 0); */
+         
+        _transform.position += (dir * Time.deltaTime * speed);
       
+    }
+    public void OnMove(InputAction.CallbackContext ctx)
+    {
+        dir = ctx.ReadValue<Vector2>().normalized;
     }
 }
