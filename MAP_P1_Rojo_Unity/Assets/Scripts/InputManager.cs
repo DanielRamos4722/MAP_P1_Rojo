@@ -11,7 +11,6 @@ public class InputManager : MonoBehaviour
     public PlayerController controller;
     private bool canattack = false;
     public Animator animator;
-    public GameObject imagenEspada;
     
   
     //para que pueda atacar cuando esté activo
@@ -43,19 +42,16 @@ public class InputManager : MonoBehaviour
             direction.x = 1;
         }
         _playermove.Changedirection(direction);
-        /*if (Input.GetKeyDown(KeyCode.Z) && canattack == true)
+        if (Input.GetKeyDown(KeyCode.Z) && canattack == true)
         {
             controller.Attack();
            
-        }*/
+        }
 
     }
-
     public void CanAttack()
     {
-        animator.Play("CogerObjetos");
-        controller.canAttack = true;
-        if (imagenEspada != null)
-            imagenEspada.SetActive(true);
+        animator.Play("CogerObjeto");
+        canattack = true;
     }
 }

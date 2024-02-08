@@ -12,9 +12,6 @@ EditorBuildSettings:
     path: Assets/Scenes/MAP_P1_Rojo_Unity.unity
     guid: 453b527e1540f3a4d847a3d1bfc86bb3
   - enabled: 1
-    path: Assets/Scenes/Cueva.unity
-    guid: f79ecc6b77045d84e90f26b33218a754
-  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1

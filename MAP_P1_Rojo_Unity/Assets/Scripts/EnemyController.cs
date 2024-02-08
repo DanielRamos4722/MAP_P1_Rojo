@@ -25,7 +25,7 @@ public class EnemyController : MonoBehaviour
     }
     public void Damaged() 
     {
-        maxhealth=-1;
+        maxhealth--;
         Debug.Log(maxhealth);
         if (maxhealth <= 0) { Death(); }  
     }

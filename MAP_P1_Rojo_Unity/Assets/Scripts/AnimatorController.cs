@@ -3,12 +3,11 @@ using System.Collections.Generic;
 using System.Threading;
 using UnityEngine;
 using UnityEngine.Audio;
-using UnityEngine.InputSystem;
 
 public class AnimatorController : MonoBehaviour
 {
     private Rigidbody2D rb;
-    Animator animator;
+    public Animator animator;
     public AudioSource clip;
     [SerializeField]
     private Transform player;
@@ -16,7 +15,7 @@ public class AnimatorController : MonoBehaviour
     bool vertical;
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        rb = player.GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
     private void Position()
@@ -42,7 +41,7 @@ public class AnimatorController : MonoBehaviour
     void Update()
     {
         // Detecta las teclas de flecha
-        /*if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (vertical)
         {
             animator.SetInteger("AnimState", 0);
         }
@@ -73,8 +72,9 @@ public class AnimatorController : MonoBehaviour
         }
         else if (Input.GetKeyDown(KeyCode.Z))
         {
-
-        } */
+            clip.Play();
+            animator.SetTrigger("AnimTrigger");
+        }
     }
 
     void SetAnimation(string animationName)
@@ -82,48 +82,6 @@ public class AnimatorController : MonoBehaviour
         // Cambia la animación
         animator.Play(animationName);
     }
-    public void ToAttack()
-    {
-        clip.Play();
-        animator.SetTrigger("AnimTrigger");
-    }
-    public void OnMove(InputAction.CallbackContext ctx)
-    {
-        Vector2 dir = ctx.ReadValue<Vector2>();
-        if (dir.sqrMagnitude != 0)
-        {
-            if (dir.y>0 && Mathf.Abs(dir.y)>Mathf.Abs(dir.x))
-            {
-                animator.SetInteger("AnimState", 0);
-            }
-            else if (dir.y< 0 && Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
-            {
-                animator.SetInteger("AnimState", 1);
-            }
-            else if (dir.x> 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
-            {
-                if (transform.rotation == Quaternion.identity)
-                {
-                    animator.SetInteger("AnimState", 2);
-                }
-                else
-                {
-                    animator.SetInteger("AnimState", 2);
-                    transform.rotation = Quaternion.Euler(0f, 0f, 0f);
-                }
-            }
-            else if (dir.x< 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
-            {
-                animator.SetInteger("AnimState", 2);
-                transform.rotation = Quaternion.Euler(0f, 180f, 0f);
-            }
 
-        }
-        else
-        {
-            animator.SetInteger("AnimState", 3);
-        } 
-    }
-
-
+    
 }

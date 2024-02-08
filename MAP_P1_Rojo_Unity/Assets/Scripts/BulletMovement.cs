@@ -31,11 +31,5 @@ public class BulletMovement : MonoBehaviour
         {
             vidaSys.vida--;
         }
-        PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
-        if (pc)
-        {
-            pc.LooseHeath();
-        }
     }
-
 }
