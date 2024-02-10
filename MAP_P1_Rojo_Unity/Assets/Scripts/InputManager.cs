@@ -41,6 +41,7 @@ public class InputManager : MonoBehaviour
         else if (Input.GetKey(KeyCode.RightArrow)|| Input.GetKey(KeyCode.D))
         {
             direction.x = 1;
+            
         }
         _playermove.Changedirection(direction);
         /*if (Input.GetKeyDown(KeyCode.Z) && canattack == true)

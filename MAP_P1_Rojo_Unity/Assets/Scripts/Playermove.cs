@@ -28,11 +28,17 @@ public class Playermove : MonoBehaviour
     void Update()
     {
 
-        /*var gamepad = Gamepad.current;
-        Vector2 movementinput = gamepad.leftStick.ReadValue();
-        direction = new Vector3(movementinput.x, movementinput.y, 0); */
+        var gamepad = Gamepad.current;
+        if (gamepad != null)
+        {
+            Vector2 movementinput = gamepad.leftStick.ReadValue();
+            if (movementinput.x != 0&& movementinput.y !=0)
+            {
+                direction = new Vector3(movementinput.x, movementinput.y, 0);
+            }
+        }
          
-        _transform.position += (dir * Time.deltaTime * speed);
+        _transform.position += (direction * Time.deltaTime * speed);
     }
     public void OnMove(InputAction.CallbackContext ctx)
     {
