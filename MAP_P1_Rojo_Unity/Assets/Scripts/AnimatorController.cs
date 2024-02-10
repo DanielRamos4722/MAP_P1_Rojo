@@ -124,6 +124,10 @@ public class AnimatorController : MonoBehaviour
             animator.SetInteger("AnimState", 3);
         } 
     }
+    public void objectPickUp()
+    {
+        animator.Play("CogerObjetos");
+    }
 
 
 }

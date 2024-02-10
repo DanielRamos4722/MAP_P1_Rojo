@@ -5,7 +5,6 @@ using UnityEngine;
 public class WeaponController : MonoBehaviour
 {
     EnemyController enemyController;
-   public InputManager inputManager;
     PlayerController playerController;
     private void OnTriggerEnter2D(Collider2D collider)
     {
@@ -22,7 +21,7 @@ public class WeaponController : MonoBehaviour
             playerController = collider.GetComponent<PlayerController>();
             if (playerController != null)
             {
-                inputManager.CanAttack();
+                playerController.EnableAttack(); 
                 Destroy(this.gameObject);
             }
        

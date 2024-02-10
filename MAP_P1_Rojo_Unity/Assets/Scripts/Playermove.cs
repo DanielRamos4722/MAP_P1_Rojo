@@ -33,7 +33,6 @@ public class Playermove : MonoBehaviour
         direction = new Vector3(movementinput.x, movementinput.y, 0); */
          
         _transform.position += (dir * Time.deltaTime * speed);
-      
     }
     public void OnMove(InputAction.CallbackContext ctx)
     {

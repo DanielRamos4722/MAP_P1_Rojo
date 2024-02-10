@@ -15,6 +15,7 @@ public class OctorokManager : MonoBehaviour
     bool alive = true;
     Quaternion rot = Quaternion.identity;
     public int dir = 4;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -151,4 +152,6 @@ public class OctorokManager : MonoBehaviour
         Instantiate(bullet, transform.position, rot);
         shootCancel = true;
     }
+    
+
 }

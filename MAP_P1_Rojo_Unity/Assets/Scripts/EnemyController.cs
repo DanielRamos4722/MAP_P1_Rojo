@@ -11,6 +11,7 @@ public class EnemyController : MonoBehaviour
     public GameObject Rupia;
     public GameObject RupiaAzul;
     public GameObject Corazon;
+    public GameObject explosion;
     private void Awake()
     {
         //Esto luego se hará algo para cambiarlo para cada enemigo, ¿con un public o algo así?
@@ -31,8 +32,14 @@ public class EnemyController : MonoBehaviour
     }
     private void Death()
     {
+        ExplosionMuerte();
         //Drop();
         Destroy(gameObject);
+    }
+    public void ExplosionMuerte()
+    {
+        GameObject ex = Instantiate(explosion, transform.position, Quaternion.identity);
+        Destroy(ex, 0.5f);
     }
     private void Drop()
     {

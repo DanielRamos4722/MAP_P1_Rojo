@@ -9,7 +9,7 @@ public class PlayerController : MonoBehaviour
 {
     // Start is called before the first frame update
     private int money, bombs, maxhealth, health;
-    public GameObject ataqueArriba, ataqueAbajo, ataqueDerecha, ataqueIzquierda, proyectil;
+    public GameObject ataqueArriba, ataqueAbajo, ataqueDerecha, ataqueIzquierda, proyectil, espadaUI;
     private AnimatorController animatorController;
     public bool canAttack;
     void Start()
@@ -130,6 +130,13 @@ public class PlayerController : MonoBehaviour
         {
             ataqueAbajo.SetActive(false);
         }
+    }
+    public void EnableAttack()
+    {
+        canAttack = true;
+        animatorController.objectPickUp();
+        espadaUI.SetActive(true);  
+        
     }
         
 }
