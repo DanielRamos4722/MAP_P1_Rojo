@@ -7,6 +7,8 @@ public class SpawnComponent : MonoBehaviour
 {
     static GameObject myself;
     Transform myTransform;
+
+    [SerializeField]
     string name;
 
     void Start()
@@ -14,11 +16,10 @@ public class SpawnComponent : MonoBehaviour
         // Asigna variables
         myself = gameObject;
         myTransform = transform;
-        name = gameObject.name;
     }
     public static void Spawn()
     {
-        // Usando la variable name, cargar un prefab en la propia posición del objeto con el mismo nombre (myTransform)
+        // Usando la variable name, cargar un prefab en la propia posición del objeto con el nombre "name" (myTransform)
         // [[[RELLENAR]]]
         // IMPORTANTE: Cuando se cargue el prefab, ponerlo como hijo del propio spawner (para encontrarlo en Despawn)
     }
