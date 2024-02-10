@@ -8,33 +8,17 @@ public class WeaponController : MonoBehaviour
     PlayerController playerController;
     private void OnTriggerEnter2D(Collider2D collider)
     {
-
-        enemyController = collider.GetComponent<EnemyController>();
-        if (enemyController != null)
+        playerController = collider.GetComponent<PlayerController>();
+        if (playerController != null)
         {
-
-            Debug.Log("Hit");
-            enemyController.Damaged();
+            playerController.EnableAttack();
+            Destroy(gameObject);
         }
-       
-       
-            playerController = collider.GetComponent<PlayerController>();
-            if (playerController != null)
-            {
-                playerController.EnableAttack(); 
-                Destroy(this.gameObject);
-            }
-       
-    }
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-
+       
+       
+          
+       
     }
+   
 }

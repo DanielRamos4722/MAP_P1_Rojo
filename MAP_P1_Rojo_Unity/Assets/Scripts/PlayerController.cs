@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
     public void OnAtaque(InputAction.CallbackContext ctx) 
     {
-        if (ctx.performed && canAttack)
+        if (ctx.performed && canAttack==true)
         {
             Attack();
         }
