@@ -172,7 +172,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 46537f27ef6475f49a0803de66b43afc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inputManager: {fileID: 0}
+  damage: 3
 --- !u!114 &-6417275313604188586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -186,4 +186,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   efecto: {fileID: 9038626312408326168, guid: 0c4a86a27d296b746bea305e258f5ae3, type: 3}
-  explosionEnemigo: {fileID: 4155568070214531556, guid: 6588196d91e426e40af02913dcab44f2, type: 3}

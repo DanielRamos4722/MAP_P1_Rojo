@@ -24,9 +24,9 @@ public class EnemyController : MonoBehaviour
         //para saber la posición donde crear los prefabs
         _myTransform = transform;
     }
-    public void Damaged() 
+    public void Damaged(int i) 
     {
-        maxhealth=-1;
+        maxhealth+=-i;
         Debug.Log(maxhealth);
         if (maxhealth <= 0) { Death(); }  
     }
