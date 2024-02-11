@@ -52,7 +52,8 @@ public class CameraController : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if(scene == 1)
+        Playermove playermove = collision.GetComponent<Playermove>();
+        if(scene == 1 & playermove)
             StartCoroutine(Desplazamiento());
     }
 
@@ -63,7 +64,7 @@ public class CameraController : MonoBehaviour
 
         Vector3 linkMove;
         float linkDist = 0.1f;
-        float speed = 0.1f;
+        float speed = 0.4f;
         float speedL = 0.0002f;
 
         float xLink = link.transform.position.x - myTransform.position.x;

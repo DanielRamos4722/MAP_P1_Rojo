@@ -27,7 +27,6 @@ public class Playermove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         var gamepad = Gamepad.current;
         if (gamepad != null)
         {

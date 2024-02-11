@@ -5,21 +5,32 @@ using UnityEngine;
 public class RoomSpawnController : MonoBehaviour
 {
     SpawnComponent[] SpawnComponents;
-    private void OnTriggerEnter(Collider other)
+
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Dispara el método Spawn en el SpawnController de cada hijo de la sala (los spawners para cada objeto/enemigo)
-        foreach (var SpawnComponent in SpawnComponents)
+        Playermove playermove = collision.gameObject.GetComponent<Playermove>();
+
+        if (playermove)
         {
-            SpawnComponent.Spawn();
+            foreach (var SpawnComponent in SpawnComponents)
+            {
+                SpawnComponent.Spawn();
+            }
         }
+        // Dispara el método Spawn en el SpawnController de cada hijo de la sala (los spawners para cada objeto/enemigo)
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D collision)
     {
         // Dispara el método Despawn en el SpawnController de cada hijo de la sala (los spawners para cada objeto/enemigo)
-        foreach (var SpawnComponent in SpawnComponents)
+        Playermove playermove = collision.gameObject.GetComponent<Playermove>();
+
+        if (playermove)
         {
-            SpawnComponent.Despawn();
+            foreach (var SpawnComponent in SpawnComponents)
+            {
+                SpawnComponent.Despawn();
+            }
         }
     }
 

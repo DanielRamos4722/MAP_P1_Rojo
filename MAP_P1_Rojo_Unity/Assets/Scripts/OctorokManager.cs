@@ -8,6 +8,7 @@ public class OctorokManager : MonoBehaviour
     Animator anim;
     SpriteRenderer spriteR;
     [SerializeField] GameObject bullet;
+    [SerializeField] Rigidbody2D rb;
     Transform myTransform;
 
     float speed;
@@ -22,7 +23,8 @@ public class OctorokManager : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         spriteR = GetComponent<SpriteRenderer>();
-        myTransform = transform;
+        rb = GetComponent<Rigidbody2D>();
+        myTransform = rb.transform;
 
         if (gameObject.tag == "OctorokR")
             speed = 0.5f;

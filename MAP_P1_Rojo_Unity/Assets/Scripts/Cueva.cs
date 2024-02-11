@@ -10,7 +10,7 @@ public class Cueva : MonoBehaviour
     private Transform player;
     Vector3 position;
     int scene;
-    public AudioSource clip;
+    //public AudioSource clip;
 
     private void Awake()
     {
@@ -25,7 +25,7 @@ public class Cueva : MonoBehaviour
         }
         else
         {
-            clip.Stop();
+            //clip.Stop();
             SceneManager.LoadScene(2);
 
            /* position = new Vector3(-2.88f, 0.62f, 0f);
