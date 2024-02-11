@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cueva.unity
     guid: f79ecc6b77045d84e90f26b33218a754
+  - enabled: 1
+    path: Assets/Scenes/JLG_MAP_P1_Rojo_Unity.unity
+    guid: aa8a8fe6250d4ca4597b179f40d2e280
   m_configObjects: {}
