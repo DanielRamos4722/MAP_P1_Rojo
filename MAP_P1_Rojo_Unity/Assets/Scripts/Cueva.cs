@@ -10,6 +10,7 @@ public class Cueva : MonoBehaviour
     private Transform player;
     Vector3 position;
     int scene;
+    private EntradaCueva entradacueva;
     //public AudioSource clip;
 
     private void Awake()
@@ -19,7 +20,13 @@ public class Cueva : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D cueva)
     {
-        if(scene == 2)
+        player=cueva.GetComponent<Transform>();
+        if(cueva != null)
+        {
+            entradacueva.OnTriggerEnter2D(cueva);
+        }
+
+        /*if(scene == 2)
         {
             SceneManager.LoadScene(1);
         }
@@ -29,8 +36,8 @@ public class Cueva : MonoBehaviour
             SceneManager.LoadScene(2);
 
            /* position = new Vector3(-2.88f, 0.62f, 0f);
-            player.position = position;*/
-        }
+            player.position = position;
+        }*/
     }
 
 }

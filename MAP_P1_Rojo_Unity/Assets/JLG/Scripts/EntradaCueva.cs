@@ -9,7 +9,7 @@ public class EntradaCueva : MonoBehaviour
     public Texto texto;
 
     public Transform puntoEntradaCueva;
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void OnTriggerEnter2D(Collider2D collision)
     {
         PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
         if (pc != null)

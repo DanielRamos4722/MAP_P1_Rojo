@@ -6,7 +6,6 @@ using UnityEngine.Audio;
 
 public class Tienda : MonoBehaviour
 {
-
     public AudioSource clip;
     // Start is called before the first frame update
     void Start()
@@ -14,7 +13,6 @@ public class Tienda : MonoBehaviour
         StartCoroutine(Escritura());
         
     }
-
 
     [SerializeField] TextMeshProUGUI text;
     string textoAux = "BUY SOMETHIN' WILL YA!";
@@ -32,12 +30,5 @@ public class Tienda : MonoBehaviour
             yield return new WaitForSeconds(0.1f);
             
         }
-    }
-
-    
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
