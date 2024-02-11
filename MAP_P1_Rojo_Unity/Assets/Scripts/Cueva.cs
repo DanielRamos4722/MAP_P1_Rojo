@@ -25,19 +25,6 @@ public class Cueva : MonoBehaviour
         {
             entradacueva.OnTriggerEnter2D(cueva);
         }
-
-        /*if(scene == 2)
-        {
-            SceneManager.LoadScene(1);
-        }
-        else
-        {
-            //clip.Stop();
-            SceneManager.LoadScene(2);
-
-           /* position = new Vector3(-2.88f, 0.62f, 0f);
-            player.position = position;
-        }*/
     }
 
 }
