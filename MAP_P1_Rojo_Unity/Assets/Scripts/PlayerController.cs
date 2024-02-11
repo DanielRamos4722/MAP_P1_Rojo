@@ -39,6 +39,7 @@ public class PlayerController : MonoBehaviour
         {
             Die();
         }
+        animatorController.GetHit();
     }
     private void Die()
     {

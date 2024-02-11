@@ -12,33 +12,11 @@ public class AnimatorController : MonoBehaviour
     public AudioSource clip;
     [SerializeField]
     private Transform player;
-    bool horizontal;
-    bool vertical;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
     }
-    private void Position()
-    {
-        if(Mathf.Abs(rb.velocity.x) > 0.1f)
-        {
-            horizontal = true;
-        }
-        else if (Mathf.Abs(rb.velocity.x) < -0.1f)
-        {
-            horizontal = false;
-        }
-        if(Mathf.Abs(rb.velocity.y) > 0.1f)
-        {
-            vertical = true;
-        }
-        else if (Mathf.Abs(rb.velocity.y) < -0.1f)
-        {
-            vertical = false;
-        }
-    }
-
     void Update()
     {
         // Detecta las teclas de flecha
@@ -92,15 +70,15 @@ public class AnimatorController : MonoBehaviour
         Vector2 dir = ctx.ReadValue<Vector2>();
         if (dir.sqrMagnitude != 0)
         {
-            if (dir.y>0 && Mathf.Abs(dir.y)>Mathf.Abs(dir.x))
+            if (dir.y > 0 && Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
             {
                 animator.SetInteger("AnimState", 0);
             }
-            else if (dir.y< 0 && Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
+            else if (dir.y < 0 && Mathf.Abs(dir.y) > Mathf.Abs(dir.x))
             {
                 animator.SetInteger("AnimState", 1);
             }
-            else if (dir.x> 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+            else if (dir.x > 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
             {
                 if (transform.rotation == Quaternion.identity)
                 {
@@ -112,7 +90,7 @@ public class AnimatorController : MonoBehaviour
                     transform.rotation = Quaternion.Euler(0f, 0f, 0f);
                 }
             }
-            else if (dir.x< 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
+            else if (dir.x < 0 && Mathf.Abs(dir.x) > Mathf.Abs(dir.y))
             {
                 animator.SetInteger("AnimState", 2);
                 transform.rotation = Quaternion.Euler(0f, 180f, 0f);
@@ -122,12 +100,14 @@ public class AnimatorController : MonoBehaviour
         else
         {
             animator.SetInteger("AnimState", 3);
-        } 
+        }
     }
     public void objectPickUp()
     {
         animator.Play("CogerObjetos");
     }
-
-
+    public void GetHit()
+    {
+        animator.Play("Get hit");
+    }
 }
