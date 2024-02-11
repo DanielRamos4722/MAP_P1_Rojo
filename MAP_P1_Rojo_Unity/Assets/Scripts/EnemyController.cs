@@ -33,7 +33,7 @@ public class EnemyController : MonoBehaviour
     private void Death()
     {
         ExplosionMuerte();
-        //Drop();
+        Drop();
         Destroy(gameObject);
     }
     public void ExplosionMuerte()

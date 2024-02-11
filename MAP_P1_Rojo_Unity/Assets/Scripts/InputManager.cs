@@ -34,7 +34,7 @@ public class InputManager : MonoBehaviour
         {
             direction.y = -1;
         }
-        if (Input.GetKey(KeyCode.LeftArrow)||Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.LeftArrow)||Input.GetKey(KeyCode.A))
         {
             direction.x = -1;
         }

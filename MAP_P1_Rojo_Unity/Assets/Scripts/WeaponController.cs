@@ -14,11 +14,11 @@ public class WeaponController : MonoBehaviour
             playerController.EnableAttack();
             Destroy(gameObject);
         }
-
-       
-       
-          
-       
+        enemyController = collider.GetComponent<EnemyController>();
+        if (enemyController != null)
+        {
+            enemyController.Damaged();
+        }
     }
    
 }
