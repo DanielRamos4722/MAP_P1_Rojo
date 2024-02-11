@@ -82,14 +82,14 @@ public class EnemyController : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         Playermove playermove = collision.gameObject.GetComponent<Playermove>();
-        print("va");
+       
 
         if (playermove)
         {
             Vector3 guaya = (collision.gameObject.transform.position - _myTransform.position) - collision.transform.position;
 
             playermove.rb.AddForce(guaya.normalized * 3);
-            print("va");
+            
         }
     }
 }

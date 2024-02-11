@@ -14,9 +14,20 @@ public class EntradaCueva : MonoBehaviour
         PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
         if (pc != null)
         {
-            camera.transform.position = new Vector3(0, -7.2f, -10);
-            link.transform.position = puntoEntradaCueva.position;
-            texto.EntrarCueva();
+            if (collision.gameObject.transform.position.x<0)
+            {
+
+                camera.transform.position = new Vector3(0, -7.2f, -10);
+                link.transform.position = puntoEntradaCueva.position;
+                texto.EntrarCueva();
+            }
+            else
+            {
+
+                camera.transform.position = new Vector3(13.39f, -7.2f, -10);
+                link.transform.position = puntoEntradaCueva.position;
+                texto.EntrarTienda();
+            }
         }
     }
 

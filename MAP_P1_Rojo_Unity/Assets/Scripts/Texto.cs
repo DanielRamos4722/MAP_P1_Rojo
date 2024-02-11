@@ -9,17 +9,29 @@ public class Texto : MonoBehaviour
     bool first = true;
     public AudioSource clip;
     // Start is called before the first frame update
-   
-    [SerializeField] TextMeshProUGUI text;
-    string textoAux = "IT'S DANGEROUS TO GO ALONE! TAKE THIS.";
 
-   
+    [SerializeField] TextMeshProUGUI text;
+    [SerializeField]
+    string textoAux1;
+    [SerializeField]
+    string textoAux2;
     IEnumerator Escritura()
     {
         string texto = "";
-        for (int i = 0; i < textoAux.Length; i++)
+        for (int i = 0; i < textoAux1.Length; i++)
         {
-            texto += textoAux[i];
+            texto += textoAux1[i];
+            print(texto);
+            text.text = texto;
+            yield return new WaitForSeconds(0.1f);
+        }
+    }
+    IEnumerator Escritura2()
+    {
+        string texto = "";
+        for (int i = 0; i < textoAux2.Length; i++)
+        {
+            texto += textoAux2[i];
             print(texto);
             text.text = texto;
             yield return new WaitForSeconds(0.1f);
@@ -34,5 +46,14 @@ public class Texto : MonoBehaviour
             first = false;
         }
         
+    }
+    public void EntrarTienda()
+    {
+        if (first)
+        {
+            StartCoroutine(Escritura2());
+            first = false;
+        }
+
     }
 }
