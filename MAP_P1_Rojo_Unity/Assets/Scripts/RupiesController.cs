@@ -14,6 +14,7 @@ public class RupiesController : MonoBehaviour
         {
             if(sumaRupias != null) 
             {
+                Debug.Log("recoge");
                 SumarRupias();
                 Destroy(this.gameObject);
 
