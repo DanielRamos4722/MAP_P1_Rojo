@@ -116,9 +116,9 @@ TextureImporter:
         x: 0
         y: 0
         width: 608
-        height: 551
+        height: 552
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,19 +134,19 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_1
       rect:
         serializedVersion: 2
-        x: 334
-        y: 519
-        width: 11
-        height: 11
+        x: 336
+        y: 520
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 99ee2fa7607de8e40bca9ef7cc9c2977
-      internalID: -97663705
+      spriteID: b9629e92add33bf4bbf9fb4b7029a2f4
+      internalID: 1787221941
       vertices: []
       indices: 
       edges: []
@@ -155,19 +155,19 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_2
       rect:
         serializedVersion: 2
-        x: 350
-        y: 518
-        width: 12
-        height: 12
+        x: 353
+        y: 521
+        width: 6
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4ccad754c4eb7374ba4deebe36726a03
-      internalID: 1686785460
+      spriteID: 387fe8c7d92d5d34dac63794eaee801b
+      internalID: -1445666947
       vertices: []
       indices: 
       edges: []
@@ -176,19 +176,19 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_3
       rect:
         serializedVersion: 2
-        x: 382
-        y: 519
-        width: 12
-        height: 11
+        x: 367
+        y: 521
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3a390ea92899b604b95300c9e183e9d3
-      internalID: -2076000564
+      spriteID: 94c0fc246ad093747b575cefdea5304e
+      internalID: -640394323
       vertices: []
       indices: 
       edges: []
@@ -197,19 +197,19 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_4
       rect:
         serializedVersion: 2
-        x: 462
-        y: 519
-        width: 11
-        height: 10
+        x: 383
+        y: 521
+        width: 8
+        height: 7
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ec03a25a2b61204409be145e73384af5
-      internalID: 1963101475
+      spriteID: f48176f55d0b02844ab7b79b16d9c2e3
+      internalID: -426276141
       vertices: []
       indices: 
       edges: []
@@ -218,19 +218,19 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_5
       rect:
         serializedVersion: 2
-        x: 366
-        y: 518
-        width: 13
-        height: 12
+        x: 463
+        y: 520
+        width: 9
+        height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 802e553bf6fa1db488f5549ae79f138d
-      internalID: 440121801
+      spriteID: 1019bab0df517a942a4dea4cc2418bb1
+      internalID: -592070714
       vertices: []
       indices: 
       edges: []
@@ -239,10 +239,10 @@ TextureImporter:
       name: NES - The Legend of Zelda - Fonts_6
       rect:
         serializedVersion: 2
-        x: 350
-        y: 487
-        width: 11
-        height: 11
+        x: 351
+        y: 488
+        width: 9
+        height: 9
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83ae40ab08905594b8bc989de4324444
-      internalID: -15643239
+      spriteID: 53e1b477e1a724748b540e4df6e7ed73
+      internalID: 670389872
       vertices: []
       indices: 
       edges: []
@@ -268,12 +268,12 @@ TextureImporter:
     secondaryTextures: []
     nameFileIdTable:
       NES - The Legend of Zelda - Fonts_0: -1511745710
-      NES - The Legend of Zelda - Fonts_1: 1277427163
-      NES - The Legend of Zelda - Fonts_2: -97663705
-      NES - The Legend of Zelda - Fonts_3: 1686785460
-      NES - The Legend of Zelda - Fonts_4: -2076000564
-      NES - The Legend of Zelda - Fonts_5: 1963101475
-      NES - The Legend of Zelda - Fonts_6: 440121801
+      NES - The Legend of Zelda - Fonts_1: 1787221941
+      NES - The Legend of Zelda - Fonts_2: -1445666947
+      NES - The Legend of Zelda - Fonts_3: -640394323
+      NES - The Legend of Zelda - Fonts_4: -426276141
+      NES - The Legend of Zelda - Fonts_5: -592070714
+      NES - The Legend of Zelda - Fonts_6: 670389872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
