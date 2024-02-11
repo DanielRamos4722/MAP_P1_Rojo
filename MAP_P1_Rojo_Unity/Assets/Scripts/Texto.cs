@@ -23,6 +23,7 @@ public class Texto : MonoBehaviour
             print(texto);
             text.text = texto;
             yield return new WaitForSeconds(0.1f);
+            clip.Play();
         }
     }
     public void EntrarCueva()
