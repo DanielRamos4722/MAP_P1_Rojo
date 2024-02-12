@@ -5,8 +5,7 @@ public class ScnMng : MonoBehaviour
 {
     void Start()
     {
-        // Inicia en la Escena 1
-        //SceneManager.LoadScene("Pantalla start");
+        Screen.SetResolution(640, 480, true);
     }
 
     void Update()
