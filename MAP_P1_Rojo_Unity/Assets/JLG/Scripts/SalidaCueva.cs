@@ -13,7 +13,7 @@ public class SalidaCueva : MonoBehaviour
         PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
         if (pc != null)
         {
-            if (collision.gameObject.transform.position.x < 0)
+            if (collision.gameObject.transform.position.x < 2)
             {
                 camera.transform.position = new Vector3(0, 0, -10);
                 link.transform.position = puntoEntradaCueva.position;
