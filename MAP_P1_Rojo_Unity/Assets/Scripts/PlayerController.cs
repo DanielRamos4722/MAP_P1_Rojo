@@ -33,7 +33,13 @@ public class PlayerController : MonoBehaviour
     }
     public void AddHealth() 
     {
-    if (health < maxhealth) {  health ++; }
+        VidaSystem vida = GetComponent<VidaSystem>();
+    if (health < maxhealth) 
+        {  
+            health ++;
+            vida.vida++;
+        
+        }
     }
     public void LooseHeath() 
     {
@@ -43,7 +49,8 @@ public class PlayerController : MonoBehaviour
             Die();
         }
         animatorController.GetHit();
-    }
+    }   
+
     private void Die()
     {
         

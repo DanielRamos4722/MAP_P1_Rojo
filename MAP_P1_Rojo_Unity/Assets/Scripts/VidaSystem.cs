@@ -59,6 +59,7 @@ public class VidaSystem : MonoBehaviour
             {
                 corazon[i].enabled = false;
             }
+            Debug.Log(vida);
         }
 
         if(vida == 0)

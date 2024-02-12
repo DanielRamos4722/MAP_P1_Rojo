@@ -7,6 +7,7 @@ public class HeartController : MonoBehaviour
 {
     PlayerController controller;
     public AudioSource clip;
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         controller = collision.GetComponent<PlayerController>();
@@ -16,7 +17,8 @@ public class HeartController : MonoBehaviour
             controller.AddHealth();
             clip.Play();
             Destroy(gameObject);
-            
+           
+
         }
     }
 }
