@@ -13,6 +13,7 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
        RupiesController.sumaRupias += SumarRupias;
+       BlueRupieController.sumaRupias += SumarRupiasAzules;
        BombasController.sumaBombas += SumarBombas;
     }
 
@@ -21,6 +22,11 @@ public class UIManager : MonoBehaviour
         totalRupias += rupias;
         textoRupias.text = totalRupias.ToString();
 
+    }
+    private void SumarRupiasAzules(int rupiasazules)
+    {
+        totalRupias += rupiasazules;
+        textoRupias.text = totalRupias.ToString();
     }
     private void SumarBombas(int bombas)
     {

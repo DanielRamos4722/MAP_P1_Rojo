@@ -14,8 +14,8 @@ public class WeaponController : MonoBehaviour
     playerController = collider.GetComponent<PlayerController>();
         if (playerController != null)
         {
+            gameObject.SetActive(false);
             playerController.EnableAttack();
-            Destroy(gameObject);
         }
         enemyController = collider.GetComponent<EnemyController>();
         if (enemyController != null)
