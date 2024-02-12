@@ -7,10 +7,18 @@ public class WeaponController : MonoBehaviour
   
     EnemyController enemyController;
     PlayerController playerController;
+    InputManager inputManager;
     public int damage;
+
+    private void Start()
+    {
+        inputManager = GameObject.Find("InputManager").GetComponent<InputManager>();
+    }
     private void OnTriggerEnter2D(Collider2D collider)
     {
-           
+        inputManager.CanAttack();
+
+    
     playerController = collider.GetComponent<PlayerController>();
         if (playerController != null)
         {
@@ -23,5 +31,7 @@ public class WeaponController : MonoBehaviour
             enemyController.Damaged(damage);
         }
     }
+
+
    
 }

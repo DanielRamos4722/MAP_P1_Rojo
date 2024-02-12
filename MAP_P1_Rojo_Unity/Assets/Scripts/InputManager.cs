@@ -54,8 +54,9 @@ public class InputManager : MonoBehaviour
     public void CanAttack()
     {
         animator.Play("CogerObjetos");
-        
-        if (imagenEspada != null)
-            imagenEspada.SetActive(true);
+        Debug.Log("Cogiendo espada");
+        //controller.canAttack = true;
+
+        imagenEspada.SetActive(true);
     }
 }

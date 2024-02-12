@@ -21,7 +21,6 @@ public class Texto : MonoBehaviour
         for (int i = 0; i < textoAux1.Length; i++)
         {
             texto += textoAux1[i];
-            print(texto);
             text.text = texto;
             yield return new WaitForSeconds(0.1f);
         }
