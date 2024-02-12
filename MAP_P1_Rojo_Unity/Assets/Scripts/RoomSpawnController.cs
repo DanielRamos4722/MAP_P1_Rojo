@@ -14,7 +14,7 @@ public class RoomSpawnController : MonoBehaviour
         {
             foreach (var SpawnComponent in SpawnComponents)
             {
-                SpawnComponent.Spawn();
+                StartCoroutine(SpawnComponent.Spawn());
             }
         }
         // Dispara el método Spawn en el SpawnController de cada hijo de la sala (los spawners para cada objeto/enemigo)

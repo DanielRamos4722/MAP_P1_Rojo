@@ -154,6 +154,4 @@ public class OctorokManager : MonoBehaviour
         Instantiate(bullet, transform.position, rot);
         shootCancel = true;
     }
-    
-
 }

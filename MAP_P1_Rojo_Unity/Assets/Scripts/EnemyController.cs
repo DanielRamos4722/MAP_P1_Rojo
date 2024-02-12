@@ -26,8 +26,8 @@ public class EnemyController : MonoBehaviour
     }
     public void Damaged(int i) 
     {
-        maxhealth+=-i;
-        Debug.Log(maxhealth);
+        maxhealth-=i;
+        Debug.Log(maxhealth + " " + i);
         if (maxhealth <= 0) { Death(); }  
     }
     private void Death()
@@ -76,20 +76,31 @@ public class EnemyController : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        
+        PlayerController playerController = collision.gameObject.GetComponent<PlayerController>();
+        if(playerController)
+        {
+            if(playerController.stateA)
+            {
+                Damaged(10);
+            }
+            else
+            {
+                VidaSystem vidaSys = collision.gameObject.GetComponent<VidaSystem>();
+                if (vidaSys)
+                {
+                    vidaSys.vida--;
+                }
+                PlayerController pc = collision.gameObject.GetComponent<PlayerController>();
+                if (pc)
+                {
+                    pc.LooseHeath();
+                }
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        Playermove playermove = collision.gameObject.GetComponent<Playermove>();
-       
 
-        if (playermove)
-        {
-            Vector3 guaya = (collision.gameObject.transform.position - _myTransform.position) - collision.transform.position;
-
-            playermove.rb.AddForce(guaya.normalized * 3);
-            
-        }
     }
 }
